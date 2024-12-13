@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 from PIL import ImageOps
-def explain_disease_with_links(category):
+def explain_disease(category):
     explanations = {
         0: ("**Tomato Verticillium Wilt**: A fungal disease causing wilting, yellowing leaves, and stunted growth.\n\n"
             "**Preventive Measures**:\n"
