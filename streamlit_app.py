@@ -78,21 +78,13 @@ def explain_disease(category):
              "- Monitor regularly for infestations.\n"
              "- Use biological control agents.\n"
              "- Avoid excessive nitrogen fertilizers.\n\n"
-             "The cashew leaf miner, Acrocercops syngramma, is a pest that damages cashew leaves and shoots: 
-Appearance
-The leaf miner lays tiny, transparent eggs on the upper side of young leaves. The caterpillars that hatch are dull white at first, but turn reddish brown and grow to 5–7 mm in length. 
-Symptoms
-The caterpillars mine the leaves and shoots, causing blisters that dry up and distort the leaves. The leaves may also turn brown and curl. Older leaves may develop large holes. 
-When it occurs
-The leaf miner is most common during the post-monsoon period, from August to December, with peak activity in October and November. Young plants and seedlings are most susceptible. 
-Management
-Natural enemies, such as larval parasitoids, can manage the leaf miner population by up to 50%. If chemical control is necessary, you can consider an integrated approach that includes preventive measures and biological treatments. You can spray Monocrophos 36 WSC 0.05% at 0.5ml/lit."),
+             "[Learn more](https://extension.umn.edu)"),
         15: ("**Maize Streak Virus**: A viral disease causing streaks on leaves and stunted growth, transmitted by leafhoppers.\n\n"
              "**Preventive Measures**:\n"
              "- Plant resistant maize varieties.\n"
              "- Control leafhopper populations.\n"
              "- Maintain field sanitation.\n\n"
-             "[Learn more](https://en.wikipedia.org/wiki/Maize_streak_virus"),
+             "[Learn more](https://en.wikipedia.org/wiki/Maize_streak_virus)"),
         16: ("**Tomato Septoria Leaf Spot**: A fungal disease causing small, circular spots on leaves, leading to defoliation.\n\n"
              "**Preventive Measures**:\n"
              "- Remove and destroy infected leaves.\n"
