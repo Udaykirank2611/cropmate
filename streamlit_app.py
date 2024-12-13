@@ -6,7 +6,7 @@ import numpy as np
 # Load your model
 @st.cache_resource
 def load_trained_model():
-    return load_model("model.h5")
+    return load_model("cnn_model.h5")
 
 model = load_trained_model()
 
