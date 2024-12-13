@@ -148,6 +148,6 @@ if uploaded_file is not None:
               15:'Maize streak virus',16:'Tomato septoria leaf spot',17:'Maize leaf blight',
               18:'Cashew anthracnose',19:'Tomato leaf curl',20:'Maize fall armyworm'}
         st.write("Predicted Class:", categories[a])
-        explain_disease(categories[a])
+        st.write(explain_disease(categories[a]))
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
