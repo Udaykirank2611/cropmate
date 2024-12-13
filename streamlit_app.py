@@ -10,52 +10,115 @@ def explain_disease(category):
             "- Use resistant tomato varieties.\n"
             "- Practice crop rotation.\n"
             "- Improve soil drainage.\n\n"
-            "**Read More**:\n"
-            "- [University of California Agriculture and Natural Resources](https://ipm.ucanr.edu/agriculture/tomato/verticillium-wilt/)\n"
-            "- [Tomato Disease Guide by Cornell University](https://vegetablemdonline.ppath.cornell.edu/factsheets/Tomato_Verticillium.htm)"),
+            "[Learn more](https://extension.psu.edu/tomato-diseases-verticillium-wilt)"),
         1: ("**Cassava Green Mite**: A pest causing yellowing and curling of cassava leaves, reducing photosynthesis.\n\n"
             "**Preventive Measures**:\n"
             "- Introduce natural predators.\n"
             "- Use pest-resistant cassava varieties.\n"
             "- Avoid over-fertilization.\n\n"
-            "**Read More**:\n"
-            "- [International Institute of Tropical Agriculture (IITA)](https://www.iita.org/news-item/control-of-cassava-green-mites/)\n"
-            "- [FAO Pest and Disease Guidelines](https://www.fao.org/agriculture/crops/thematic-sitemap/theme/pests/en/)"),
+            "[Learn more](https://www.cabi.org/isc/datasheet/11175)"),
         2: ("**Cassava Mosaic**: A viral disease spread by whiteflies, causing leaf distortion and stunted plants.\n\n"
             "**Preventive Measures**:\n"
             "- Use disease-free planting materials.\n"
             "- Control whiteflies with biological or chemical methods.\n"
             "- Practice intercropping and crop rotation.\n\n"
-            "**Read More**:\n"
-            "- [IITA Cassava Mosaic Disease](https://www.iita.org/research/thematic-areas/crop-production-and-systems/cassava-mosaic-disease/)\n"
-            "- [CGIAR Cassava Research Program](https://www.cgiar.org/impact/research/cassava-diseases/)"),
+            "[Learn more](https://www.cabi.org/isc/datasheet/40510)"),
         3: ("**Cashew Red Rust**: A fungal disease causing reddish patches on leaves and twigs.\n\n"
             "**Preventive Measures**:\n"
             "- Apply fungicides like copper oxychloride.\n"
             "- Prune infected parts.\n"
             "- Ensure proper plant spacing for ventilation.\n\n"
-            "**Read More**:\n"
-            "- [Cashew Info](https://cashewinfo.com/)\n"
-            "- [National Horticultural Board - Cashew Diseases](https://nhb.gov.in/)"),
+            "[Learn more](https://agritech.tnau.ac.in)"),
         4: ("**Cashew Gumosis**: A fungal disease causing gum exudation from stems and branches.\n\n"
             "**Preventive Measures**:\n"
             "- Use disease-free seedlings.\n"
             "- Remove and burn infected parts.\n"
             "- Maintain proper soil health and drainage.\n\n"
-            "**Read More**:\n"
-            "- [Indian Council of Agricultural Research - Cashew Gumosis](https://icar.gov.in/)\n"
-            "- [National Cashew Information Portal](https://cashew.gov.in/)"),
+            "[Learn more](https://www.bioversityinternational.org)"),
         5: ("**Tomato Healthy**: Your tomato plant shows no signs of disease or pests. Keep up the good work!\n\n"
-            "**Tips**:\n"
-            "- Monitor plants regularly.\n"
-            "- Maintain soil fertility and organic matter.\n"
-            "- Mulch to retain moisture.\n\n"
-            "**Read More**:\n"
-            "- [FAO Tomato Production Guide](https://www.fao.org/agriculture/tomatoes/production-guide/)"),
-        # Add similar entries for categories 6 to 20
+            "[Learn more about tomato care](https://extension.umn.edu/vegetables/growing-tomatoes)"),
+        6: ("**Cassava Brown Spot**: A fungal disease causing brown lesions on leaves, reducing yields.\n\n"
+            "**Preventive Measures**:\n"
+            "- Use resistant varieties.\n"
+            "- Remove and destroy infected plant parts.\n"
+            "- Improve plant nutrition.\n\n"
+            "[Learn more](https://www.cabi.org/isc/datasheet/11152)"),
+        7: ("**Cassava Bacterial Blight**: A bacterial disease causing wilting, leaf blight, and stem dieback.\n\n"
+            "**Preventive Measures**:\n"
+            "- Use certified disease-free cuttings.\n"
+            "- Control insect vectors.\n"
+            "- Avoid waterlogged soils.\n\n"
+            "[Learn more](https://www.fao.org)"),
+        8: ("**Maize Leaf Beetle**: A pest feeding on maize leaves, causing reduced photosynthesis.\n\n"
+            "**Preventive Measures**:\n"
+            "- Use insect-resistant maize varieties.\n"
+            "- Apply biological controls like neem-based products.\n"
+            "- Encourage natural predators.\n\n"
+            "[Learn more](https://www.cabi.org/isc/datasheet/12345)"),
+        9: ("**Cassava Healthy**: Your cassava plant appears healthy and free from diseases or pests. Maintain good practices!\n\n"
+            "[Learn more about cassava care](https://www.cassavahub.com)"),
+        10: ("**Maize Leaf Spot**: A fungal disease causing dark lesions on leaves, affecting photosynthesis.\n\n"
+             "**Preventive Measures**:\n"
+             "- Use resistant maize varieties.\n"
+             "- Apply fungicides as needed.\n"
+             "- Avoid overhead irrigation.\n\n"
+             "[Learn more](https://www.apsnet.org)"),
+        11: ("**Maize Healthy**: Your maize crop is in good condition. Continue practicing good agricultural techniques!\n\n"
+             "[Learn more about maize care](https://www.maizeinternational.com)"),
+        12: ("**Tomato Leaf Blight**: A fungal disease causing leaf browning, wilting, and fruit drop.\n\n"
+             "**Preventive Measures**:\n"
+             "- Use fungicides to manage infections.\n"
+             "- Ensure proper plant spacing for airflow.\n"
+             "- Remove and destroy infected leaves.\n\n"
+             "[Learn more](https://www.extension.psu.edu)"),
+        13: ("**Cashew Healthy**: Your cashew plant looks healthy. Keep up with good management practices!\n\n"
+             "[Learn more about cashew care](https://www.cashewinfo.com)"),
+        14: ("**Cashew Leaf Miner**: An insect pest that tunnels into cashew leaves, causing discoloration and reduced growth.\n\n"
+             "**Preventive Measures**:\n"
+             "- Monitor regularly for infestations.\n"
+             "- Use biological control agents.\n"
+             "- Avoid excessive nitrogen fertilizers.\n\n"
+             "[Learn more](https://www.cabi.org)"),
+        15: ("**Maize Streak Virus**: A viral disease causing streaks on leaves and stunted growth, transmitted by leafhoppers.\n\n"
+             "**Preventive Measures**:\n"
+             "- Plant resistant maize varieties.\n"
+             "- Control leafhopper populations.\n"
+             "- Maintain field sanitation.\n\n"
+             "[Learn more](https://www.fao.org)"),
+        16: ("**Tomato Septoria Leaf Spot**: A fungal disease causing small, circular spots on leaves, leading to defoliation.\n\n"
+             "**Preventive Measures**:\n"
+             "- Remove and destroy infected leaves.\n"
+             "- Apply fungicides.\n"
+             "- Avoid overhead watering.\n\n"
+             "[Learn more](https://extension.umn.edu)"),
+        17: ("**Maize Leaf Blight**: A fungal disease causing elongated lesions on leaves, reducing photosynthesis.\n\n"
+             "**Preventive Measures**:\n"
+             "- Use resistant maize hybrids.\n"
+             "- Rotate crops to break the disease cycle.\n"
+             "- Apply appropriate fungicides.\n\n"
+             "[Learn more](https://www.apsnet.org)"),
+        18: ("**Cashew Anthracnose**: A fungal disease causing black lesions on leaves, flowers, and fruits.\n\n"
+             "**Preventive Measures**:\n"
+             "- Apply copper-based fungicides.\n"
+             "- Prune and destroy infected parts.\n"
+             "- Improve field hygiene.\n\n"
+             "[Learn more](https://www.cashewinfo.com)"),
+        19: ("**Tomato Leaf Curl**: A viral disease transmitted by whiteflies, causing leaf curling and stunted growth.\n\n"
+             "**Preventive Measures**:\n"
+             "- Use resistant varieties.\n"
+             "- Control whiteflies with insecticides.\n"
+             "- Remove and destroy infected plants.\n\n"
+             "[Learn more](https://www.extension.psu.edu)"),
+        20: ("**Maize Fall Armyworm**: A destructive pest feeding on maize leaves and kernels.\n\n"
+             "**Preventive Measures**:\n"
+             "- Regularly monitor fields for signs of infestation.\n"
+             "- Apply biological controls like Bacillus thuringiensis (Bt).\n"
+             "- Practice intercropping to reduce pest spread.\n\n"
+             "[Learn more](https://www.fao.org)"),
     }
+    return explanations.get(category, "Unknown category. Please verify the model output.")
 
-    return explanations.get(category, "Unknown category. Please verify the category ID.")
+
 # Load your trained model
 @st.cache_resource
 def load_trained_model():
