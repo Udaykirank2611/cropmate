@@ -49,7 +49,12 @@ if uploaded_file is not None:
     # Predict using the model
     try:
         prediction = model.predict(processed_image)
-        st.write("Prediction (Raw Output):", prediction)
-        st.write("Predicted Class:", np.argmax(prediction, axis=1)[0])
+        a = np.argmax(prediction, axis=1)[0]
+        categories = {0:'Tomato verticulium wilt', 1:'Cassava green mite', 2:'Cassava mosaic',3:'Cashew red rust',4:'Cashew gumosis',
+              5:'Tomato healthy',6:'Cassava brown spot',7:'Cassava bacterial blight',8:'Maize leaf beetle',9:'Cassava healthy',
+              10:'Maize leaf spot',11:'Maize healthy',12:'Tomato leaf blight',13:'Cashew healthy',14:'Cashew leaf miner',
+              15:'Maize streak virus',16:'Tomato septoria leaf spot',17:'Maize leaf blight',
+              18:'Cashew anthracnose',19:'Tomato leaf curl',20:'Maize fall armyworm'}
+        st.write("Predicted Class:", categories[a])
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
