@@ -84,7 +84,7 @@ def explain_disease(category):
              "- Plant resistant maize varieties.\n"
              "- Control leafhopper populations.\n"
              "- Maintain field sanitation.\n\n"
-             "[Learn more](https://www.fao.org)"),
+             "[Learn more](https://en.wikipedia.org/wiki/Maize_streak_virus"),
         16: ("**Tomato Septoria Leaf Spot**: A fungal disease causing small, circular spots on leaves, leading to defoliation.\n\n"
              "**Preventive Measures**:\n"
              "- Remove and destroy infected leaves.\n"
