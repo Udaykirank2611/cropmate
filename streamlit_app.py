@@ -141,7 +141,7 @@ def preprocess_image(image, target_size, grayscale=False):
     return image
 
 # Streamlit UI
-st.title("Image Classification with ML Model")
+st.title("Detect  Crop Disease with ML Model")
 st.write("Upload an image, and the ML model will classify it!")
 
 # File uploader for images
