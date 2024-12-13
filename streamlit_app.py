@@ -164,7 +164,7 @@ if uploaded_file is not None:
     # Predict using the model
     try:
         prediction = model.predict(processed_image)
-        a = np.argmax(prediction, axis=1)[0]
+        a = np.argmax(prediction, axis=1)[1]
         categories = {0:'Tomato verticulium wilt', 1:'Cassava green mite', 2:'Cassava mosaic',3:'Cashew red rust',4:'Cashew gumosis',
               5:'Tomato healthy',6:'Cassava brown spot',7:'Cassava bacterial blight',8:'Maize leaf beetle',9:'Cassava healthy',
               10:'Maize leaf spot',11:'Maize healthy',12:'Tomato leaf blight',13:'Cashew healthy',14:'Cashew leaf miner',
